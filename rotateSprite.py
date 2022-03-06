@@ -26,7 +26,7 @@ argument.add_argument('--input', required=True, help='Backup file from tinysprit
 argument.add_argument('--output',default="tinysprite.spr", help='Destination file')
 argument.add_argument('--theta',default=0.1, help='Angle value')
 argument.add_argument('--interval', default=0.2, help='Time interval between frames. Defaul=0.2')
-argument.add_argument('--frames',default=6.4, help='Number of frames to generate. Default=6.2')
+argument.add_argument('--frames',default=6.2, help='Number of frames to generate. Default=6.2')
 
 args=argument.parse_args()
 #print(args.input)
