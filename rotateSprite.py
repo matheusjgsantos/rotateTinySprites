@@ -27,12 +27,13 @@ argument.add_argument('--output',default="tinysprite.spr", help='Destination fil
 argument.add_argument('--theta',default=0.1, help='Angle value')
 argument.add_argument('--interval', default=0.2, help='Time interval between frames. Defaul=0.2')
 argument.add_argument('--frames',default=6.2, help='Number of frames to generate. Default=6.2')
+argument.add_argument('--angle',default=6.2, help='Value for the initial angle. Default=0')
 
 args=argument.parse_args()
 #print(args.input)
 height = 16
 width = 16
-angle = 0
+angle = float(args.angle)
 
 
 # Because python is weird sometimes - https://stackoverflow.com/questions/2397141/how-to-initialize-a-two-dimensional-array-in-python

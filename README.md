@@ -1,5 +1,5 @@
 # rotateTinySprites
-Python script to rotate sprites created using TinySprite webtool
+Python script to rotate sprites created using Jannone's [TinySprite](http://msx.jannone.org/tinysprite/tinysprite.html) webtool
 
 ##Usage
 
@@ -16,6 +16,7 @@ optional arguments:
   --theta THETA        Angle value
   --interval INTERVAL  Time interval between frames. Defaul=0.2
   --frames FRAMES      Number of frames to generate. Default=6.2
+  --angle ANGLE        Value for the initial angle. Default=0
 ```
 
 
