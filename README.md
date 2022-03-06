@@ -1,7 +1,7 @@
 # rotateTinySprites
 Python script to rotate sprites created using Jannone's [TinySprite](http://msx.jannone.org/tinysprite/tinysprite.html) webtool
 
-##Usage
+## Usage
 
  - Create a single slot sprite in the TineSprite site
  - Export the sprite as backup
@@ -27,12 +27,12 @@ optional arguments:
 ```
 
 
-##Example
+## Example
 
 This is a small sample from the rotating script results:
 
 ![Rotating plane](pics/rotating_plane.gif)
 
-##Troubleshoot
+## Troubleshoot
 
  - If the scripts fails due to missing **env** program just run it using `python3 ./rotateSprite.py`
