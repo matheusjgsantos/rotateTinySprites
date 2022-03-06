@@ -3,6 +3,12 @@ Python script to rotate sprites created using Jannone's [TinySprite](http://msx.
 
 ##Usage
 
+ - Create a single slot sprite in the TineSprite site
+ - Export the sprite as backup
+ - Copy the exported data and paste it in a text editor
+ - Save the file at the same directory where the script is located
+ - Finally, run the script passing the sprite file name at the --input parameter
+
 ```./rotateSprite.py --help
 usage: rotateSprite.py [-h] --input INPUT [--output OUTPUT] [--theta THETA]
                        [--interval INTERVAL] [--frames FRAMES]
@@ -25,3 +31,7 @@ optional arguments:
 This is a small sample from the rotating script results:
 
 ![Rotating plane](pics/rotating_plane.gif)
+
+##Troubleshoot
+
+ - If the scripts fails due to missing **env** program just run it using `python3 ./rotateSprite.py`
