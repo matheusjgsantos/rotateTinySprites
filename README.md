@@ -3,7 +3,7 @@ Python script to rotate sprites created using Jannone's [TinySprite](http://msx.
 
 ## Usage
 
- - Create a single slot sprite in the TineSprite site
+ - Create a single slot sprite in the TinySprite site
  - Export the sprite as backup
  - Copy the exported data and paste it in a text editor
  - Save the file at the same directory where the script is located
