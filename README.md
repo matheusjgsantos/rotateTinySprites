@@ -8,6 +8,7 @@ Python script to rotate sprites created using Jannone's [TinySprite](http://msx.
  - Copy the exported data and paste it in a text editor
  - Save the file at the same directory where the script is located
  - Finally, run the script passing the sprite file name at the --input parameter
+ - The output file can be used in Tiny Sprite using the load backup option
 
 ```./rotateSprite.py --help
 usage: rotateSprite.py [-h] --input INPUT [--output OUTPUT] [--theta THETA]
@@ -17,7 +18,7 @@ Rotate sprites from tinysprite
 
 optional arguments:
   -h, --help           show this help message and exit
-  --input INPUT        Backup file from tinysprite
+  --input INPUT        Backup file from tinysprite. Default is tinysprite.spr
   --output OUTPUT      Destination file
   --theta THETA        Angle value
   --interval INTERVAL  Time interval between frames. Defaul=0.2
